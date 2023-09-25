@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71F90F5E-AF05-4D05-AEC2-6A8119479E63" name="PRODUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:13:41 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B375A869-D7B4-ADC7-CF7C-2857838B20C3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:14:17 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="1B1034D6-16A4-885B-0791-38A830CD0244">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:14:29 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA" id="54E385F3-B237-19E2-CAA0-99E94C3C7F97">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:15:30 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRICAO" id="68F5C9B2-125D-E751-A8B0-C631AD1C5FA2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:15:56 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECO" id="B1562EB3-3F97-F7D3-A624-0907E2261F6E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:16:25 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORIA" id="8F39F9BA-7115-46AF-A2BE-1DF699804219">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6A317D5-B583-3C41-178E-C26ABA3C7A8F" name="PRODUTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:14:21 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B375A869-D7B4-ADC7-CF7C-2857838B20C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

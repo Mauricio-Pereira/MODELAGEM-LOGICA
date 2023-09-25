@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D0C0B2-AEC5-8536-CB03-4E8340CFD226" name="FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:08:20 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D8B18EF1-D87D-C345-D4F6-7E4D4CB6E807">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:08:42 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="02722562-4483-57CD-8C7E-77BC309C7504">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:09:10 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="C23B5582-EFB5-C9DA-BC4A-6A05BC075E7B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:10:38 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="6847B4C0-6191-0EDA-38AA-A16071D8267F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:11:19 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTRATACAO" id="86F0F1C5-B95F-AECA-56BC-A2D56C5EA331">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:12:12 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADC67FBA-AF29-8A33-B0D3-2A9D37868946" name="FUNCIONARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:11:58 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8B18EF1-D87D-C345-D4F6-7E4D4CB6E807</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
