@@ -79,20 +79,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="FAFA52FC-E98F-4185-4DC0-136081CD5F05">
-<createdBy>caver</createdBy>
-<createdTime>2023-10-02 11:56:52 UTC</createdTime>
-<generatorID>3BF21F67-E14C-B2EC-1AB7-B2CDDDEFDAEE</generatorID>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
-</engineerTo>
-<referedAttribute>3C2CAB57-2371-9B36-8149-5BD08127665A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DBDA90DD-4954-FC13-3DC1-12A0885F33C3" name="ESTOQUE PK">
