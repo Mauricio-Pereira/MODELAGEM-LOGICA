@@ -14,20 +14,4 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="CF7305AF-E9FB-3DEA-1C32-9283FDB84840">
-<createdBy>caver</createdBy>
-<createdTime>2023-10-02 11:39:57 UTC</createdTime>
-<generatorID>5BCD5404-9E52-E65C-CBC1-CE73DE806130</generatorID>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
-</engineerTo>
-<referedAttribute>5BCE3D19-15A5-B505-F346-3A1559F7A073</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
 </Entity>
