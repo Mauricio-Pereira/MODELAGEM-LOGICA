@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A575EE0-3551-2A62-8B9B-AE98E8FC4699" name="CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A575EE0-3551-2A62-8B9B-AE98E8FC4699" name="cliente">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 11:17:51 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
@@ -38,8 +38,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ENDERECO" id="8C96F661-12B1-AA7C-8D6F-0A4CF52E5A41">
 <createdBy>logonrmlocal</createdBy>
@@ -52,8 +51,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TELEFONE" id="CB999D8A-709A-3FC6-898B-4696AFDDCC5D">
 <createdBy>logonrmlocal</createdBy>
@@ -80,8 +78,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CPF" id="015344CB-4365-6D35-54E2-62C3AD967299">
 <createdBy>logonrmlocal</createdBy>

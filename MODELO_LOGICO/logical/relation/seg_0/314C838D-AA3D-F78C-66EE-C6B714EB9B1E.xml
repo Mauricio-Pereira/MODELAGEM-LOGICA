@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_19" directorySegmentName="seg_0" id="314C838D-AA3D-F78C-66EE-C6B714EB9B1E">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:46:53 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<sourcePk>AF9C0D3C-3B8D-7DF9-D804-66E2470EBF49</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D4FED623-50C0-634C-A34A-95E680554F23</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>71F90F5E-AF05-4D05-AEC2-6A8119479E63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

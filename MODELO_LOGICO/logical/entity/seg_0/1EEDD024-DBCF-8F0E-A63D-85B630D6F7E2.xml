@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EEDD024-DBCF-8F0E-A63D-85B630D6F7E2" name="ESTOQUE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EEDD024-DBCF-8F0E-A63D-85B630D6F7E2" name="estoque">
 <createdBy>caver</createdBy>
 <createdTime>2023-09-11 12:41:41 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
@@ -24,7 +24,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="QUANTIDADE" id="9E11C1EB-D8D4-94D2-5DD4-38CAF36B2D75">
@@ -37,7 +36,6 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DATA_DE_ENTRADA" id="AAA4BF26-7F56-1B75-395E-EE826A19D7A2">
@@ -50,9 +48,36 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="B1F7A4D5-38E4-858D-4926-F1ABD348EF72">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:27:02 UTC</createdTime>
+<generatorID>09B8C210-22A5-4426-DABA-B5CDF77E4E2C</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<referedAttribute>B375A869-D7B4-ADC7-CF7C-2857838B20C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="CE150396-763A-7D2E-215D-090405B2B5C5">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:53:11 UTC</createdTime>
+<generatorID>09B8C210-22A5-4426-DABA-B5CDF77E4E2C</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<referedAttribute>A69C27A2-C88B-4B31-CD64-66501692FD4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

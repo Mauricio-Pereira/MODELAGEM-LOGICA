@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C4D4C9D-DED8-E89E-1663-9BAC0FCE5C0B" name="compra">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:33:02 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BE8E8A5-838A-7F6F-E686-95224954A31A" name="tipo_produto">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:26:14 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="38B3C090-2801-06F5-E708-DE408592B1D8">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:33:09 UTC</createdTime>
+<Attribute name="ID" id="3C2CAB57-2371-9B36-8149-5BD08127665A">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:49:23 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DATA" id="FEEF3BE3-7928-6577-C5B4-5CC428AC0BD1">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:33:24 UTC</createdTime>
+<Attribute name="DESCRICAO" id="481CF768-A32D-0D2D-92F4-FD7284AD2F3E">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:50:27 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
@@ -37,35 +37,21 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TOTAL" id="1B3FD577-2F07-4CE3-B809-DFB4A6D815B0">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:34:18 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DE2847D8-8DF3-6372-CB59-6DB472311E60" name="COMPRA PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:33:14 UTC</createdTime>
+<identifier id="1089516B-63B8-9EF0-D635-3C2637F314B7" name="tipo_produto PK">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:49:43 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>38B3C090-2801-06F5-E708-DE408592B1D8</attributeRef>
+<attributeRef>3C2CAB57-2371-9B36-8149-5BD08127665A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

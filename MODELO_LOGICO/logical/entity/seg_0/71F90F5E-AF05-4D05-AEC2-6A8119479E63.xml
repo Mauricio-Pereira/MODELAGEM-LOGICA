@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71F90F5E-AF05-4D05-AEC2-6A8119479E63" name="PRODUTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71F90F5E-AF05-4D05-AEC2-6A8119479E63" name="produto">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 12:13:41 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
@@ -38,8 +38,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MARCA" id="54E385F3-B237-19E2-CAA0-99E94C3C7F97">
 <createdBy>logonrmlocal</createdBy>
@@ -52,8 +51,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DESCRICAO" id="68F5C9B2-125D-E751-A8B0-C631AD1C5FA2">
 <createdBy>logonrmlocal</createdBy>
@@ -66,8 +64,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="PRECO" id="B1562EB3-3F97-F7D3-A624-0907E2261F6E">
 <createdBy>logonrmlocal</createdBy>
@@ -79,9 +76,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CATEGORIA" id="8F39F9BA-7115-46AF-A2BE-1DF699804219">
 <createdBy>logonrmlocal</createdBy>
@@ -94,8 +90,63 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="2B147EF8-BBF1-646D-D9B3-3A2171E3B888">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:46:31 UTC</createdTime>
+<generatorID>892A2CE2-5078-E093-548F-325239195737</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<referedAttribute>F010D777-F53C-AC05-6D30-C73F0A78DAFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="B9DBC63E-1496-C5E5-2999-6D00F0D55DC2">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:48:55 UTC</createdTime>
+<generatorID>314C838D-AA3D-F78C-66EE-C6B714EB9B1E</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<referedAttribute>F670CEB4-A529-6C2B-2BBF-A32B95A79BF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="5FE1DED7-4CDC-F696-9054-907BE31A855C">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:50:41 UTC</createdTime>
+<generatorID>2C5D1760-65E4-C6A3-8897-569EAFA31193</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<referedAttribute>3C2CAB57-2371-9B36-8149-5BD08127665A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="A69C27A2-C88B-4B31-CD64-66501692FD4E">
+<createdBy>caver</createdBy>
+<createdTime>2023-10-02 11:53:11 UTC</createdTime>
+<generatorID>CEEDF3E2-3456-B308-16FE-FCCF3E592E68</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
+</engineerTo>
+<referedAttribute>38B3C090-2801-06F5-E708-DE408592B1D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -109,6 +160,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B375A869-D7B4-ADC7-CF7C-2857838B20C3</attributeRef>
+<attributeRef>A69C27A2-C88B-4B31-CD64-66501692FD4E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
