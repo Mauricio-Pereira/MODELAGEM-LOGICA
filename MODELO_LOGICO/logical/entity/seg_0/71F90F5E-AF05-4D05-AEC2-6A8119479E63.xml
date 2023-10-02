@@ -120,20 +120,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID3" id="5FE1DED7-4CDC-F696-9054-907BE31A855C">
-<createdBy>caver</createdBy>
-<createdTime>2023-10-02 11:50:41 UTC</createdTime>
-<generatorID>2C5D1760-65E4-C6A3-8897-569EAFA31193</generatorID>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
-</engineerTo>
-<referedAttribute>3C2CAB57-2371-9B36-8149-5BD08127665A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID4" id="A69C27A2-C88B-4B31-CD64-66501692FD4E">
 <createdBy>caver</createdBy>
 <createdTime>2023-10-02 11:53:11 UTC</createdTime>

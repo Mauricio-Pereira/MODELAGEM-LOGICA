@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BE8E8A5-838A-7F6F-E686-95224954A31A" name="tipo_produto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46C7A170-B751-2F94-B2C6-725CDF3DC8BD" name="tipo_produto">
 <createdBy>caver</createdBy>
-<createdTime>2023-10-02 11:26:14 UTC</createdTime>
+<createdTime>2023-10-02 12:01:21 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
@@ -15,21 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="3C2CAB57-2371-9B36-8149-5BD08127665A">
+<Attribute name="ID" id="15B2906A-E714-9BCB-C8CA-D7586D84889D">
 <createdBy>caver</createdBy>
-<createdTime>2023-10-02 11:49:23 UTC</createdTime>
+<createdTime>2023-10-02 12:01:34 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRICAO" id="481CF768-A32D-0D2D-92F4-FD7284AD2F3E">
+<Attribute name="DESCRICAO" id="998D900B-3CFA-0C3D-0548-1D074C2F4452">
 <createdBy>caver</createdBy>
-<createdTime>2023-10-02 11:50:27 UTC</createdTime>
+<createdTime>2023-10-02 12:01:41 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
@@ -41,18 +42,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1089516B-63B8-9EF0-D635-3C2637F314B7" name="tipo_produto PK">
-<createdBy>caver</createdBy>
-<createdTime>2023-10-02 11:49:43 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="278E46AF-E401-F94D-AFCB-D1D61B118592" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>3C2CAB57-2371-9B36-8149-5BD08127665A</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>
